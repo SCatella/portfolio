@@ -1,0 +1,27 @@
+.section-title {
+  padding-top: 25px;
+
+  h2{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+}
+
+.interests {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.interest {
+  display: flex;
+
+  p {
+    margin: 4px;
+    padding: 4px 8px;
+    border: 2px solid rgb(120, 160, 160);
+    border-radius: 5px;
+    text-transform: capitalize;
+  }
+}

@@ -1,0 +1,26 @@
+.section-title {
+  h2{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+}
+
+.skills{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skill {
+  display: flex;
+
+  p {
+    text-transform: capitalize;
+    margin: 4px;
+    padding: 4px 8px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(120, 160, 160);
+  }
+}

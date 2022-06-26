@@ -1,0 +1,16 @@
+.contact-info {
+  p {
+    display: flex;
+    margin: 8px 0px 0px;
+    text-align: left;
+    height: 20px;
+    
+    img {
+      display: flex;
+      height: inherit;
+      padding-right: 10px;
+      vertical-align: middle;
+      filter: invert(62%) sepia(10%) saturate(840%) hue-rotate(131deg) brightness(96%) contrast(85%);
+    }
+  }
+}
