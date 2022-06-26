@@ -61,10 +61,11 @@ const user = {
     {
       school: 'Zero to Mastery',
       course: 'Complete Web Developer 2022',
-      description: 'HTML, CSS, Bootstrap, CSS Flexbox, CSS Grid, Javascript, git, NPM, React, Asyncronous Javascript, Node, Express.js, PostgreSQL'
+      description: 'HTML, CSS, Bootstrap, CSS Flexbox, CSS Grid, Javascript, git, NPM, React, Asynchronous Javascript, Node, Express.js, PostgreSQL'
     },
     {
       school: 'Zero to Mastery',
+      // eslint-disable-next-line no-script-url
       course: 'Javascript: The Advanced Concepts',
       description: 'Javascript Engine & Runtime, Call Stack, Memory Heap, Hoisting, this, Types, Closures, Prototypal Inheritance, OOP, Functional Programming, Asynchronous Javascript, Modules, Error Handling'
     },
