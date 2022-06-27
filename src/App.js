@@ -1,5 +1,6 @@
-import './App.css';
-import Resume from './components/resume/resume.component'
+import Resume from './components/resume/resume.component';
+
+import './App.scss';
 
 const App = () => {
   return (
