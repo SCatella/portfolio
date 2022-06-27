@@ -1,0 +1,27 @@
+.name {
+  font-size: 40px;
+  text-align: left;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  margin-bottom: 0px;
+}
+
+.horizontal-decoration {
+  height: 5px;
+  position: relative;
+  top: -6px;
+  clip-path: polygon(0% 0%, 5% 100%, 85% 0%);
+  background-color: rgb(120, 160, 160);
+}
+
+.title {
+  text-align: left;
+  text-indent: 35px;
+  letter-spacing: 5px;
+  margin: 0px 0px;
+}
+
+.statement {
+  margin-top: 25px;
+  text-align: left;
+}

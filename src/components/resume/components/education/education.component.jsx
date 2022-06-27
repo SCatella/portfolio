@@ -9,7 +9,7 @@ const Education = ({ education }) => {
           education.map((element, index) => {
             return (
               <div className='course' key={`${element.course}${index}`}>
-                <h4>{`${element.course} - ${element.school}`}</h4>
+                <h5>{`${element.course} - ${element.school}`}</h5>
                 <p>{`${element.description}`}</p>
               </div>
             )})

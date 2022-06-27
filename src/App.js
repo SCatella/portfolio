@@ -4,7 +4,9 @@ import Resume from './components/resume/resume.component'
 const App = () => {
   return (
     <div className="App">
-      <Resume className='resume' />
+      <div className='resume'>
+        <Resume />
+      </div>
     </div>
   );
 }

@@ -6,6 +6,7 @@ const User = ({user}) => {
       <h1 className='name'>
         {`${user.firstName} ${user.lastName}`}
       </h1>
+      <div className='horizontal-decoration'></div>
       <h4 className='title'>
         {`${user.title}`}
       </h4>
