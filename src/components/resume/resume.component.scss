@@ -1,8 +1,19 @@
+@media print {
+  body * {
+    display: none;
+  }
+
+  #resume, #resume * {
+    display: block;
+  }
+}
+
 .page-container {
   display: flex;
-  height: 11in;
-  width: 8.5in;
+  height: 9.65in;
+  width: 8.0in;
   border: 1px solid darkgray;
+  padding: 0.25in;
 }
 
 .left-column {
@@ -24,7 +35,6 @@
 .profile-picture {
   display: flex;
   margin: auto;
-  padding-top: 15px;
   object-fit: cover;
   width: 150px;
 }

@@ -39,15 +39,15 @@ const user = {
     }
   ],
   skills: [
-    'HTML',
-    'CSS',
-    'javascript',
     'react',
     'node',
     'express.js',
     'postgreSQL',
     'firebase',
     'postman',
+    'HTML',
+    'CSS',
+    'javascript',
     'webpack',
     'git',
     'npm',
@@ -120,48 +120,48 @@ const user = {
       position: 'Waiter',
       location: 'Boulder, CO'
     },
-    {
-      company: 'Tao Asian Fusion',
-      monthStarted: 'April',
-      monthEnded: 'March',
-      yearStarted: '2011',
-      yearEnded: '2012',
-      position: 'Waiter',
-      location: 'Louisville, CO'
-    },
-    {
-      company: 'Home Depot',
-      monthStarted: 'August',
-      monthEnded: 'March',
-      yearStarted: '2009',
-      yearEnded: '2011',
-      position: 'Sales Associate, Shipping Associate',
-      location: 'Boulder, CO'
-    },
-    {
-      company: 'The Fresh Air Group',
-      monthStarted: 'March',
-      monthEnded: 'June',
-      yearStarted: '2009',
-      yearEnded: '2009',
-      position: 'Assistant Estimator',
-      location: 'Winter Garden, FL'
-    },
-    {
-      company: 'Mechanical Services Inc',
-      monthStarted: 'April',
-      monthEnded: 'January',
-      yearStarted: '2004',
-      yearEnded: '2009',
-      position: 'CAD Drafter, Sheet Metal Technician',
-      location: 'Orlando, FL'
-    } 
+    // {
+    //   company: 'Tao Asian Fusion',
+    //   monthStarted: 'April',
+    //   monthEnded: 'March',
+    //   yearStarted: '2011',
+    //   yearEnded: '2012',
+    //   position: 'Waiter',
+    //   location: 'Louisville, CO'
+    // },
+    // {
+    //   company: 'Home Depot',
+    //   monthStarted: 'August',
+    //   monthEnded: 'March',
+    //   yearStarted: '2009',
+    //   yearEnded: '2011',
+    //   position: 'Sales Associate, Shipping Associate',
+    //   location: 'Boulder, CO'
+    // },
+    // {
+    //   company: 'The Fresh Air Group',
+    //   monthStarted: 'March',
+    //   monthEnded: 'June',
+    //   yearStarted: '2009',
+    //   yearEnded: '2009',
+    //   position: 'Assistant Estimator',
+    //   location: 'Winter Garden, FL'
+    // },
+    // {
+    //   company: 'Mechanical Services Inc',
+    //   monthStarted: 'April',
+    //   monthEnded: 'January',
+    //   yearStarted: '2004',
+    //   yearEnded: '2009',
+    //   position: 'CAD Drafter, Sheet Metal Technician',
+    //   location: 'Orlando, FL'
+    // } 
   ]
 }
 
 
 const Resume = () => (
-  <div className='page-container'>
+  <div className='page-container' id='resume'>
     <div className='left-column'>
       <img src={profilePicture} alt='' className='profile-picture'></img>
       <Contact contact={user.contact} />
@@ -171,8 +171,8 @@ const Resume = () => (
     <div className='middle-decoration' />
     <div className='right-column'>
       <User user={user} />
-      <Education education={user.education} />
       <Projects projects={user.projects} />
+      <Education education={user.education} />
       <Employment employment={user.employment} />
     </div>
   </div>
