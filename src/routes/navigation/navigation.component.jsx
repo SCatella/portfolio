@@ -1,10 +1,13 @@
 import { Fragment } from 'react';
 import { Outlet, Link } from 'react-router-dom';
 
+import './navigation.styles.scss';
+
+
 const Navigation = () => {
   return (
     <Fragment>
-      <div className='nav-bar'>
+      <div className='navigation-bar'>
         <Link className='logo-container' to='/'>Home</Link>
         <div className='nav-links-container'>
           <Link className='nav-link' to='/resume'>Resume</Link>

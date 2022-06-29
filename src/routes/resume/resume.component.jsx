@@ -1,10 +1,10 @@
-import Contact from '../../components/resume/components/contact/contact.component';
-import Skills from '../../components/resume/components/skills/skills.component';
-import Interests from '../../components/resume/components/interests/interests.component';
-import User from '../../components/resume/components/user/user.component';
-import Education from '../../components/resume/components/education/education.component';
-import Projects from '../../components/resume/components/projects/projects.component';
-import Employment from '../../components/resume/components/employment/employment.component';
+import Contact from './components/contact/contact.component';
+import Skills from './components/skills/skills.component';
+import Interests from './components/interests/interests.component';
+import User from './components/user/user.component';
+import Education from './components/education/education.component';
+import Projects from './components/projects/projects.component';
+import Employment from './components/employment/employment.component';
 
 import profilePicture from '../../assets/profile-oval.png';
 import mail from '../../assets/mail.svg';
