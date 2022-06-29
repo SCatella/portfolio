@@ -1,16 +1,16 @@
-import Contact from './components/contact/contact.component';
-import Skills from './components/skills/skills.component';
-import Interests from './components/interests/interests.component';
-import User from './components/user/user.component';
-import Education from './components/education/education.component';
-import Projects from './components/projects/projects.component';
-import Employment from './components/employment/employment.component';
+import Contact from '../../components/resume/components/contact/contact.component';
+import Skills from '../../components/resume/components/skills/skills.component';
+import Interests from '../../components/resume/components/interests/interests.component';
+import User from '../../components/resume/components/user/user.component';
+import Education from '../../components/resume/components/education/education.component';
+import Projects from '../../components/resume/components/projects/projects.component';
+import Employment from '../../components/resume/components/employment/employment.component';
 
-import profilePicture from './images/profile-oval.png';
-import mail from './images/mail.svg';
-import github from './images/github.svg';
-import phone from './images/phone.svg';
-import marker from './images/marker.svg';
+import profilePicture from '../../assets/profile-oval.png';
+import mail from '../../assets/mail.svg';
+import github from '../../assets/github.svg';
+import phone from '../../assets/phone.svg';
+import marker from '../../assets/marker.svg';
 
 import './resume.component.scss';
 
@@ -40,6 +40,7 @@ const user = {
   ],
   skills: [
     'react',
+    'react-router',
     'node',
     'express.js',
     'postgreSQL',
@@ -94,7 +95,7 @@ const user = {
     },
     {
       project: 'MonsterDex',
-      description: 'Pulling user data from jsonplaceholder and images from robohash.org created a rolodex using React'
+      description: 'Pulling user data from jsonplaceholder and assets from robohash.org created a rolodex using React'
     },
     {
       project: 'DexMon',
@@ -160,22 +161,26 @@ const user = {
 }
 
 
-const Resume = () => (
-  <div className='page-container' id='resume'>
-    <div className='left-column'>
-      <img src={profilePicture} alt='' className='profile-picture'></img>
-      <Contact contact={user.contact} />
-      <Skills skills={user.skills} />
-      <Interests interests={user.interests} />
+const Resume = () => {
+  return (
+    <div className='resume'>
+      <div className='page-container' id='resume'>
+        <div className='left-column'>
+          <img src={profilePicture} alt='' className='profile-picture'></img>
+          <Contact contact={user.contact} />
+          <Skills skills={user.skills} />
+          <Interests interests={user.interests} />
+        </div>
+        <div className='middle-decoration' />
+        <div className='right-column'>
+          <User user={user} />
+          <Projects projects={user.projects} />
+          <Education education={user.education} />
+          <Employment employment={user.employment} />
+        </div>
+      </div>
     </div>
-    <div className='middle-decoration' />
-    <div className='right-column'>
-      <User user={user} />
-      <Projects projects={user.projects} />
-      <Education education={user.education} />
-      <Employment employment={user.employment} />
-    </div>
-  </div>
-)
+  );
+}
 
 export default Resume;

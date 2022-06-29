@@ -1,11 +1,6 @@
-@media print {
-  body * {
-    display: none;
-  }
-
-  #resume, #resume * {
-    display: block;
-  }
+.resume {
+  display: flex;
+  justify-content: center;
 }
 
 .page-container {
