@@ -50,6 +50,7 @@ const user = {
     'CSS',
     'javascript',
     'webpack',
+    'SEO',
     'git',
     'npm',
     'yarn'
@@ -57,8 +58,23 @@ const user = {
   interests: [
     'video games',
     'movies',
+    'swimming',
+    'golf',
     'hiking',
-    'swimming'
+  ],
+  projects: [
+    {
+      project: 'Recognibox',
+      description: 'Using React and PostgreSQL developed a site that uses the Clarify API to run facial recognition on a supplied photo. Then deployed on Heroku'
+    },
+    {
+      project: 'MonsterDex',
+      description: 'Pulling user data from jsonplaceholder and assets from robohash.org created a rolodex using React'
+    },
+    {
+      project: 'DexMon',
+      description: 'Refactored MonsterDex to use Functional components instead of Class components'
+    }
   ],
   education: [
     {
@@ -88,20 +104,6 @@ const user = {
       description: 'Google Keyword Planner, SEMRush Keyword Tools, Google Trends, Keyword Research, Content Optimization, Monitoring Keyword Performance, Link Building'
     }, 
   ],
-  projects: [
-    {
-      project: 'Recognibox',
-      description: 'Using React and PostgreSQL developed a site that uses the Clarify API to run facial recognition on a supplied photo. Then deployed on Heroku'
-    },
-    {
-      project: 'MonsterDex',
-      description: 'Pulling user data from jsonplaceholder and assets from robohash.org created a rolodex using React'
-    },
-    {
-      project: 'DexMon',
-      description: 'Refactored MonsterDex to use Functional components instead of Class components'
-    }
-  ],
   employment: [
     {
       company: 'First Transit',
@@ -121,24 +123,24 @@ const user = {
       position: 'Waiter',
       location: 'Boulder, CO'
     },
-    // {
-    //   company: 'Tao Asian Fusion',
-    //   monthStarted: 'April',
-    //   monthEnded: 'March',
-    //   yearStarted: '2011',
-    //   yearEnded: '2012',
-    //   position: 'Waiter',
-    //   location: 'Louisville, CO'
-    // },
-    // {
-    //   company: 'Home Depot',
-    //   monthStarted: 'August',
-    //   monthEnded: 'March',
-    //   yearStarted: '2009',
-    //   yearEnded: '2011',
-    //   position: 'Sales Associate, Shipping Associate',
-    //   location: 'Boulder, CO'
-    // },
+    {
+      company: 'Tao Asian Fusion',
+      monthStarted: 'April',
+      monthEnded: 'March',
+      yearStarted: '2011',
+      yearEnded: '2012',
+      position: 'Waiter',
+      location: 'Louisville, CO'
+    },
+    {
+      company: 'Home Depot',
+      monthStarted: 'August',
+      monthEnded: 'March',
+      yearStarted: '2009',
+      yearEnded: '2011',
+      position: 'Sales Associate, Shipping Associate',
+      location: 'Boulder, CO'
+    },
     // {
     //   company: 'The Fresh Air Group',
     //   monthStarted: 'March',

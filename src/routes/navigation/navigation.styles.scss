@@ -1,14 +1,16 @@
+@import '../../utilities/color-palete.scss';
+
 .navigation-bar {
   height: 70px;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 25px;
+  // margin-bottom: 25px;
   text-transform: uppercase;
-  background-color: #62aaaa;
+  background-color: $blue;
 
   a {
-    color: aliceblue;
+    color: $white;
     font-size: large;
   }
   
@@ -29,13 +31,13 @@
     .nav-link {
       margin: 5px;
       padding: 10px 15px;
-      border: 1px solid rgb(100, 100, 100);
+      border: 1px solid $purple;
       border-radius: 8px;
       
       cursor: pointer;
 
       // &:hover {
-      //   background-color: bisque;
+      //   background-color: $gold-fusion;
       // }
     }
   }

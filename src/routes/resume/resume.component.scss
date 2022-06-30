@@ -6,8 +6,8 @@
 
 .page-container {
   display: flex;
-  height: 9.65in;
-  width: 8.0in;
+  height: 10.5in;
+  width: 8.5in;
   border: 1px solid darkgray;
   padding: 0.25in;
 }
@@ -33,4 +33,14 @@
   margin: auto;
   object-fit: cover;
   width: 150px;
+}
+
+@media print {
+  .navigation-bar {
+    display: none;
+  }
+
+  .page-container {
+    border: none;
+  }
 }

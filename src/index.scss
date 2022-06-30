@@ -1,8 +1,11 @@
+@import './utilities/color-palete.scss';
+
 body {
   margin: 0;
   font-family: 'Roboto', 'Ubuntu', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: $white;
 
   a {
     color: black;
