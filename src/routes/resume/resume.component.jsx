@@ -35,7 +35,7 @@ const user = {
     },
     {
       image: marker,
-      info: 'Longmont, Co'
+      info: 'Longmont, CO'
     }
   ],
   skills: [

@@ -1,0 +1,23 @@
+@import '../../utilities/color-palete.scss';
+
+.panel-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  height: 250px;
+
+  .panel {
+    display: flex;
+    width: 210px;
+    margin: 10px 5px;
+    transform: skew(-20deg);
+    background-image: $gradient-top-left;
+    border: 1px solid $purple;
+    box-shadow: -5px 5px 10px 0px $pink;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+

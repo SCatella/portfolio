@@ -1,3 +1,5 @@
+@import '../../../../utilities/color-palete.scss';
+
 .section-title {
   h2{
     text-align: center;
@@ -21,6 +23,15 @@
     padding: 4px 8px;
     border-radius: 5px;
     color: white;
-    background-color: #62aaaa;
+    background-color: $blue;
+  }
+}
+
+@media print {
+  .skill {
+    p {
+      color: black;
+      border: 1px solid $blue;
+    }
   }
 }
