@@ -9,6 +9,7 @@
   .panel {
     display: flex;
     width: 210px;
+    min-width: 100px;
     margin: 10px 5px;
     transform: skew(-20deg);
     background-image: $gradient-top-left;
