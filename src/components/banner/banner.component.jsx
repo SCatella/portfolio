@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import './banner.styles.scss';
 
 import React from 'react'
@@ -5,7 +7,7 @@ import React from 'react'
 const Banner = () => {
   return (
     <div className='banner-container'>
-      <a href='' className='banner'>full portfolio list</a>
+      <Link to='/portfolio' className='banner'>full portfolio list</Link>
     </div>
   )
 }
