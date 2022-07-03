@@ -1,7 +1,7 @@
 .resume {
   display: flex;
   justify-content: center;
-  min-width: 830px;
+  margin-top: 80px;
 }
 
 .page-container {
@@ -38,6 +38,10 @@
 @media print {
   .navigation-bar {
     display: none;
+  }
+
+  .resume {
+    margin: 0px;
   }
 
   .page-container {

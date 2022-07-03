@@ -1,9 +1,11 @@
 .contact-info {
-  p {
+  a {
     display: flex;
     margin: 8px 0px 0px;
     text-align: left;
     height: 20px;
+
+    cursor: pointer;
     
     img {
       display: flex;

@@ -5,10 +5,11 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  // margin-bottom: 25px;
   text-transform: uppercase;
   background-color: $blue;
   border-bottom: 1px solid $purple;
+  position: fixed;
+  top: 0px;
 
   a {
     color: $white;
@@ -32,10 +33,16 @@
     .nav-link {
       margin: 5px;
       padding: 10px 15px;
-      border: 1px solid $purple;
+      border: 1px solid $white;
       border-radius: 8px;
       
       cursor: pointer;
+
+      &:hover {
+        color: $purple;
+        background-color: $light-blue;
+        border-color: $purple;
+      }
     }
   }
 }

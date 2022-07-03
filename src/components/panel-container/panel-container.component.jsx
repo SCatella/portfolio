@@ -2,16 +2,18 @@ import Banner from '../banner/banner.component';
 
 import './panel-container.styles.scss';
 
-const PanelContainer = () => {
+const PanelContainer = ({ title }) => {
   return (
     <div className='panel-container'>
       <div className='panels'>
-        <a href='' className='panel'></a>
-        <a href='' className='panel'></a>
-        <a href='' className='panel'></a>
-        <a href='' className='panel'></a>
+        <a href='' target='_blank' className='panel'></a>
+        <a href='' target='_blank'  className='panel'></a>
+        <a href='' target='_blank'  className='panel'></a>
+        <a href='' target='_blank'  className='panel'></a>
       </div>
-      <Banner />
+      <div className='panel-container-banner'>
+        <Banner title={title} />
+      </div>
     </div>
   )
 }

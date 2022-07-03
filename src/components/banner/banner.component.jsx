@@ -4,10 +4,10 @@ import './banner.styles.scss';
 
 import React from 'react'
 
-const Banner = () => {
+const Banner = ({ title }) => {
   return (
     <div className='banner-container'>
-      <Link to='/portfolio' className='banner'>full portfolio list</Link>
+      <Link to='/portfolio' className='banner'>{`${title}`}</Link>
     </div>
   )
 }

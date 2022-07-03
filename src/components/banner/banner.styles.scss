@@ -2,23 +2,22 @@
 
 .banner-container {
   display: flex;
-  margin: auto;
   background-color: $purple;
   border: 1px solid $purple;
   height: 30px;
-  width: 100%;
-  max-width: 940px;
-  min-width: 480px;
-  position: relative;
-  top: -75px;
-  left: -10px;
   clip-path: polygon(0% 0%, 97% 0%, 100% 50%, 97% 100%, 0% 100%, 3% 50%);
+
+  &:hover {
+    border-color: $light-blue;
+    background-color: $light-blue;
+    transform: scale(1.03, 1.03);
+  }
   
   .banner {
     display: flex;
     height: 100%;
     width: 100%;
-    transform: scaleX(0.998);
+    transform: scaleX(0.996);
     background-color: $gold;
     clip-path: polygon(0% 0%, 97.2% 0%, 100% 50%, 97.2% 100%, 0% 100%, 3% 50%);
     color: $white;

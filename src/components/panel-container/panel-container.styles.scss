@@ -4,29 +4,40 @@
   display: flex;
   flex-wrap: wrap;
   height: fit-content;
-  width: 90%;
+  width: 90vw;
+  max-width: 1200px;
+
   
   .panels {
     display: flex;
+    justify-content: center;
     height: 250px;
     width: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
   }
 
   .panel {
-    display: flex;
-    width: 210px;
-    min-width: 100px;
+    width: 250px;
     margin: 10px 5px;
     transform: skew(-20deg);
     background-image: $gradient-top-left;
     border: 1px solid $purple;
+    border-radius: 10px;
     box-shadow: -5px 5px 10px 0px $pink;
 
     &:hover {
       cursor: pointer;
+      border-color: $light-blue;
+      transform: 
+        scale(1.06, 1.06)
+        skew(-20deg);
     }
+  }
+
+  .panel-container-banner {
+    width: 100%;
+    position: relative;
+    top: -65px;
+    left: -12px;
   }
 }
 

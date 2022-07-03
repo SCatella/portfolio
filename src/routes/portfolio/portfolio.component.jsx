@@ -2,7 +2,7 @@ import './portfolio.styles.scss'
 
 const Portfolio = () => {
   return (
-    <div>Portfolio</div>
+    <div className='portfolio'>Portfolio</div>
   )
 }
 

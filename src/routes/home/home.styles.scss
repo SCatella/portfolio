@@ -1,9 +1,82 @@
 @import '../../utilities/color-palete.scss';
 
-.home {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+.home{
   background-color: $white;
-  height: 700px;
+  margin-top: 70px;
+
+  .page {
+    // height: auto;
+    background: 
+      url('../../assets/wave.svg')
+      no-repeat
+      center bottom
+    ;
+
+    .profile{
+      display: flex;
+      flex-direction: row;
+      padding: 25px 25px 0px;
+      
+      img {
+        object-fit: contain;
+        width: 25vw;
+        min-width: 128px;
+        max-width: 300px;
+      }
+
+      .profile-info {
+        width: 100%;
+        margin-left: 2vw;
+
+        h1 {
+          color: $purple;
+          font-size: 6vw;
+          margin: 0px;
+        }
+
+        p {
+          color: $purple;
+          font-size: 2vw;
+          margin: 0px;
+        }
+
+        .statement{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 15vh;
+          padding: 2vw;
+        }
+      }
+    }
+
+    .action {
+      display: flex;
+      margin-left: 1vw;
+
+      .contact-panel {
+        display: flex;
+        justify-content: flex-start;
+        height: fit-content;
+        padding: 0.75vw;
+        border: 1px solid $light-blue;
+        border-radius: 10px;
+        background-color: rgba(128, 128, 128, 0.800);
+
+        a {
+          color: $light-blue;
+        }
+
+        img {
+          filter: invert(90%) sepia(12%) saturate(713%) hue-rotate(135deg) brightness(107%) contrast(104%);
+        }
+      }
+
+      .home-panel {
+        display: flex;
+        transform: scale(0.75);
+        justify-content: flex-end;
+      }
+    }
+  }
 }
