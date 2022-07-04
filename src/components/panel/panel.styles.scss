@@ -1,0 +1,25 @@
+@import '../../utilities/color-palete.scss';
+
+.panel {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    height: 30vh;
+    max-height: 250px;
+    width: 15vw;
+    max-width: 250px;
+    margin: 10px 5px;
+    transform: skew(-20deg);
+    background-image: $gradient-top-left;
+    border: 1px solid $purple;
+    border-radius: 10px;
+    box-shadow: -5px 5px 10px 0px $pink;
+
+    &:hover {
+      cursor: pointer;
+      border-color: $light-blue;
+      transform: 
+        scale(1.06, 1.06)
+        skew(-20deg);
+    }
+  }

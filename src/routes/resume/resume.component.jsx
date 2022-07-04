@@ -8,6 +8,7 @@ import User from './components/user/user.component';
 import Education from './components/education/education.component';
 import Projects from './components/projects/projects.component';
 import Employment from './components/employment/employment.component';
+import resume from '../../assets/Samuel Catella Resume.pdf'
 
 import './resume.component.scss';
 
@@ -18,6 +19,9 @@ const Resume = () => {
 
   return (
     <div className='resume'>
+      <div className='button-container'>
+        <a className='button' download='Samuel Catella Resume.pdf' href={resume}>Download</a>
+      </div>
       <div className='page-container' id='resume'>
         <div className='left-column'>
           <img src={user.profileImage} alt='' className='profile-picture'></img>

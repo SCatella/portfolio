@@ -1,3 +1,5 @@
+@import '../../../../utilities/color-palete.scss';
+
 .name {
   font-size: 40px;
   text-align: left;
@@ -11,7 +13,7 @@
   position: relative;
   top: -6px;
   clip-path: polygon(0% 0%, 5% 100%, 85% 0%);
-  background-color: #62aaaa;
+  background-color: $blue;
 }
 
 .title {

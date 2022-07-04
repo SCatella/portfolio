@@ -5,6 +5,7 @@
   background-color: $purple;
   border: 1px solid $purple;
   height: 30px;
+  width: 100%;
   clip-path: polygon(0% 0%, 97% 0%, 100% 50%, 97% 100%, 0% 100%, 3% 50%);
 
   &:hover {

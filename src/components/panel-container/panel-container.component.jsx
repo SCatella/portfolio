@@ -1,16 +1,26 @@
+import { useContext } from 'react';
+import { BannerTitleContext, UserContext } from '../../App';
+
 import Banner from '../banner/banner.component';
+import Panel from '../panel/panel.component';
 
 import './panel-container.styles.scss';
 
-const PanelContainer = ({ title }) => {
+const PanelContainer = () => {
+  const title = useContext(BannerTitleContext);
+  const user = useContext(UserContext);
+  const projects = user.projects.slice(0, 4);
+
   return (
     <div className='panel-container'>
       <div className='panels'>
-        <a href='' target='_blank' className='panel'></a>
-        <a href='' target='_blank'  className='panel'></a>
-        <a href='' target='_blank'  className='panel'></a>
-        <a href='' target='_blank'  className='panel'></a>
-      </div>
+        {projects.map((element) => {
+          const { link, image } = element;
+          return (
+            <Panel link={link} image={image} key={link} />
+          )
+        })}
+      </div>  
       <div className='panel-container-banner'>
         <Banner title={title} />
       </div>

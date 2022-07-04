@@ -1,7 +1,33 @@
+@import '../../utilities/color-palete.scss';
+
 .resume {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-top: 80px;
+
+  .button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px 15px;
+
+    .button {
+      margin: 5px;
+      padding: 10px 15px;
+      color: $purple;;
+      background-color: $pink;
+      border: 1px solid $purple;
+      border-radius: 8px;
+
+      &:hover {
+        background-color: $light-blue;
+      }
+    }
+  }
+  
 }
 
 .page-container {
@@ -21,7 +47,7 @@
   width: 5px;
   margin: 0px 8px;
   clip-path: polygon(50% 5%, 100% 50%, 50% 100%, 0% 50%);
-  background-color: #62aaaa;
+  background-color: $blue;
 }
 
 .right-column {
@@ -42,6 +68,14 @@
 
   .resume {
     margin: 0px;
+  }
+
+  .button-container {
+    display: none;
+  }
+
+  .button {
+    display: none;
   }
 
   .page-container {
