@@ -1,3 +1,5 @@
+@import '../../../../utilities/color-palete.scss';
+
 .contact-info {
   a {
     display: flex;
@@ -12,7 +14,7 @@
       height: inherit;
       padding-right: 10px;
       vertical-align: middle;
-      filter: invert(66%) sepia(46%) saturate(317%) hue-rotate(131deg) brightness(85%) contrast(90%);
+      filter: $blue-filter;
     }
   }
 }

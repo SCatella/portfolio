@@ -3,9 +3,10 @@
 .home{
   background-color: $white;
   margin-top: 70px;
+  height: 83.5vh;
+  max-height: 600px;
 
   .page {
-    // height: auto;
     background: 
       url('../../assets/wave.svg')
       no-repeat
@@ -21,30 +22,32 @@
         object-fit: contain;
         width: 25vw;
         min-width: 128px;
-        max-width: 300px;
-      }
+        max-width: 200px;      }
 
       .profile-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 40vh;
+        max-height: 278px;
         width: 100%;
         margin-left: 2vw;
 
         h1 {
           color: $purple;
-          font-size: 6vw;
+          font-size: clamp(30px, 6vw, 75px);
           margin: 0px;
         }
 
         p {
           color: $purple;
-          font-size: 2vw;
+          font-size: clamp(12px, 2vw, 25px);
           margin: 0px;
         }
 
-        .statement{
-          display: flex;
-          justify-content: center;
+        .profile-introduction {
           align-items: center;
-          height: 15vh;
+          max-height: 183px;
           padding: 2vw;
         }
       }
@@ -52,13 +55,14 @@
 
     .action {
       display: flex;
-      margin-left: 1vw;
+      justify-content: space-between;
+      margin-left: 2vw;
+      width: auto;
 
       .contact-panel {
         display: flex;
-        justify-content: flex-start;
         height: fit-content;
-        padding: 0.75vw;
+        padding: 10px 1.25vw;
         border: 1px solid $light-blue;
         border-radius: 10px;
         background-color: rgba(128, 128, 128, 0.800);
@@ -68,14 +72,15 @@
         }
 
         img {
-          filter: invert(90%) sepia(12%) saturate(713%) hue-rotate(135deg) brightness(107%) contrast(104%);
+          filter: $light-blue-filter;
         }
       }
 
-      .home-panel {
+      .projects-panel {
         display: flex;
+        // justify-content: flex-end;
         transform: scale(0.75);
-        justify-content: flex-end;
+        align-items: flex-end;
       }
     }
   }

@@ -1,17 +1,23 @@
+//React Imports
 import { createContext } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
+//Component Imports
 import Navigation from './routes/navigation/navigation.component';
 import Home from './routes/home/home.component';
 import Portfolio from './routes/portfolio/portfolio.component';
 import Resume from './routes/resume/resume.component';
 
+//Asset Imports
 import profilePicture from './assets/profile-oval.png';
 import mail from './assets/mail.svg';
 import github from './assets/github.svg';
-import phone from './assets/phone.svg';
-import marker from './assets/marker.svg';
+import portfolio from './assets/portfolio.png';
+import recognibox from './assets/recognibox.png';
+import dexmon from './assets/dexmon.png';
+import monsterdex from './assets/monsterdex.png';
 
+// Style Sheets Imports
 import './App.scss';
 
 export const UserContext = createContext();
@@ -31,14 +37,6 @@ const user = {
     {
       image: github,
       info: 'github.com/SCatella'
-    },
-    {
-      image: phone,
-      info: '407-312-0526'
-    },
-    {
-      image: marker,
-      info: 'Longmont, CO'
     }
   ],
   skills: [
@@ -67,16 +65,28 @@ const user = {
   ],
   projects: [
     {
+      link: 'porfolio.com',
+      image: portfolio,
+      project: 'Portfolio',
+      description: 'Using React designed and developed my own portfolio site from scratch'
+    },
+    {
+      link: 'https://recognibox.herokuapp.com/',
+      image: recognibox,
       project: 'Recognibox',
       description: 'Using React and PostgreSQL developed a site that uses the Clarify API to run facial recognition on a supplied photo. Then deployed on Heroku'
     },
     {
-      project: 'MonsterDex',
-      description: 'Pulling user data from jsonplaceholder and assets from robohash.org created a rolodex using React'
-    },
-    {
+      link: 'https://scatella.github.io/dexmon/',
+      image: dexmon,
       project: 'DexMon',
       description: 'Refactored MonsterDex to use Functional components instead of Class components'
+    },
+    {
+      link: 'monsterdex.com',
+      image: monsterdex,
+      project: 'MonsterDex',
+      description: 'Pulling user data from jsonplaceholder and assets from robohash.org created a rolodex using React'
     }
   ],
   education: [

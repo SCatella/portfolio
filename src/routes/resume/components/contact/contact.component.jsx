@@ -2,14 +2,9 @@ import './contact.styles.scss'
 
 const href = (info) => {
   if (info.includes('@')) {
-    return `mailto: ${info}>`;
-  } else if (info.includes('-')) {
-    return `tel:${info}`;
-  } else if (info.includes(',')) {
-    return `https://maps.google.com/?q=${info}`;
-  } else {
+    return `mailto: ${info}`;
+  } 
     return `https://www.${info}`;
-  }
 }
 
 const Contact = ({ contact }) => {
