@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.528c5d26.css",
+    "main.js": "/portfolio/static/js/main.08f08b07.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Samuel Catella Resume.pdf": "/portfolio/static/media/Samuel Catella Resume.532eb5569f492cfa1d5f.pdf",
+    "static/media/profile-oval.png": "/portfolio/static/media/profile-oval.cd78014225d97d381573.png",
+    "static/media/recognibox.png": "/portfolio/static/media/recognibox.d174d8e856df981b55e9.png",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.73a9947249ca324505ea.png",
+    "static/media/monsterdex.png": "/portfolio/static/media/monsterdex.1b799bc8bd6df142ba57.png",
+    "static/media/dexmon.png": "/portfolio/static/media/dexmon.596cc9f166d2d1e479a8.png",
+    "static/media/logo.svg": "/portfolio/static/media/logo.772f5d5648b2d97727f370d62cf82471.svg",
+    "static/media/github.svg": "/portfolio/static/media/github.8069ca5c1f02280c233b8b89e5a9e114.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/wave.svg": "/portfolio/static/media/wave.7b16e658cc6c0355b395.svg",
+    "static/media/mail.svg": "/portfolio/static/media/mail.aed41df235dbf88c7f96b2b704b077d0.svg",
+    "main.528c5d26.css.map": "/portfolio/static/css/main.528c5d26.css.map",
+    "main.08f08b07.js.map": "/portfolio/static/js/main.08f08b07.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.528c5d26.css",
+    "static/js/main.08f08b07.js"
+  ]
+}
