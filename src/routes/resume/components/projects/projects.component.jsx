@@ -1,3 +1,7 @@
+// Import Components
+import Panel from '../../../../components/panel/panel.component';
+
+// Import Styles
 import './projects.styles.scss'
 
 const Projects = ({ projects }) => {
@@ -7,12 +11,17 @@ const Projects = ({ projects }) => {
       <div className='projects'>
         {
           projects.map((element, index) => {
-            const { project, description } = element;
+            const { project, description, image, link } = element;
 
             return (
               <div className='project' key={`${project}${index}`}>
-                <h5>{`${project}`}</h5>
-                <p>{`${description}`}</p>
+                <div className='project-image'>
+                  <Panel link={link} image={image} />
+                </div>
+                <div className='project-info'>
+                  <h5>{`${project}`}</h5>
+                  <p>{`${description}`}</p>
+                </div>
               </div>
             )})
         }

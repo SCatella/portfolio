@@ -1,8 +1,21 @@
+// import React
+import { useContext } from 'react';
+import { UserContext } from '../../App';
+
+// Import Components
+import Projects from '../resume/components/projects/projects.component';
+
+// Import Styles
 import './portfolio.styles.scss'
 
 const Portfolio = () => {
+
+  const user = useContext(UserContext);
+
   return (
-    <div className='portfolio'>Portfolio</div>
+    <div className='portfolio'>
+      <Projects projects={user.projects} />
+    </div>
   )
 }
 

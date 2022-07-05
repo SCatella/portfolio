@@ -4,7 +4,7 @@ const href = (info) => {
   if (info.includes('@')) {
     return `mailto: ${info}`;
   } 
-    return `https://www.${info}`;
+    return `https://${info}`;
 }
 
 const Contact = ({ contact }) => {
