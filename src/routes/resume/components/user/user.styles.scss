@@ -1,29 +1,32 @@
 @import '../../../../utilities/color-palete.scss';
 
-.name {
-  font-size: 40px;
-  text-align: left;
-  text-transform: capitalize;
-  letter-spacing: 5px;
-  margin: 0px;
-}
+.user {
 
-.horizontal-decoration {
-  height: 5px;
-  position: relative;
-  top: -6px;
-  clip-path: polygon(0% 0%, 5% 100%, 85% 0%);
-  background-color: $blue;
-}
-
-.title {
-  text-align: left;
-  text-indent: 35px;
-  letter-spacing: 5px;
-  margin: 0px 0px;
-}
-
-.statement {
-  margin-top: 25px;
-  text-align: left;
+  .name {
+    font-size: 40px;
+    text-align: left;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    margin: 0px;
+  }
+  
+  .horizontal-decoration {
+    height: 5px;
+    position: relative;
+    top: -6px;
+    clip-path: polygon(0% 0%, 5% 100%, 85% 0%);
+    background-color: $blue;
+  }
+  
+  .title {
+    text-align: left;
+    text-indent: 35px;
+    letter-spacing: 5px;
+    margin: 0px 0px;
+  }
+  
+  .statement {
+    margin-top: 25px;
+    text-align: left;
+  }
 }

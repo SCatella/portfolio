@@ -6,7 +6,7 @@ import { UserContext } from '../../App';
 import Projects from '../resume/components/projects/projects.component';
 
 // Import Styles
-import './portfolio.styles.scss'
+import './projects.styles.scss'
 
 const Portfolio = () => {
 

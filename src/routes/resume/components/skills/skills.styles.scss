@@ -6,32 +6,35 @@
     text-transform: uppercase;
     letter-spacing: 5px;
   }
-}
 
-.skills{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
+  .skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+    .skill {
+      display: flex;
+    
+      p {
+        text-transform: capitalize;
+        margin: 4px;
+        padding: 4px 8px;
+        border-radius: 5px;
+        color: $white;
+        background-color: $blue;
+      }
 
-.skill {
-  display: flex;
-
-  p {
-    text-transform: capitalize;
-    margin: 4px;
-    padding: 4px 8px;
-    border-radius: 5px;
-    color: white;
-    background-color: $blue;
+    }
   }
-}
 
-@media print {
-  .skill {
-    p {
-      color: black;
-      border: 1px solid $blue;
+  @media print {
+    .skill {
+      p {
+        color: black;
+        border: 1px solid $blue;
+      }
     }
   }
 }
+
+

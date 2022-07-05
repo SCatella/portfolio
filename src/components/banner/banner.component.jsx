@@ -7,7 +7,7 @@ import React from 'react'
 const Banner = ({ title }) => {
   return (
     <div className='banner-container'>
-      <Link to='/portfolio' className='banner'>{`${title}`}</Link>
+      <Link to='/projects' className='banner'>{`${title}`}</Link>
     </div>
   )
 }

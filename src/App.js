@@ -5,7 +5,7 @@ import { Routes, Route } from 'react-router-dom';
 //Component Imports
 import Navigation from './routes/navigation/navigation.component';
 import Home from './routes/home/home.component';
-import Portfolio from './routes/portfolio/portfolio.component';
+import Projects from './routes/projects/projects.component';
 import Resume from './routes/resume/resume.component';
 
 //Asset Imports
@@ -70,7 +70,7 @@ const user = {
   ],
   projects: [
     {
-      link: 'porfolio.com',
+      link: 'https://scatella.github.io/portfolio/',
       image: portfolio,
       project: 'Portfolio',
       description: 'Using React designed and developed my own portfolio site from scratch'
@@ -88,7 +88,7 @@ const user = {
       description: 'Refactored MonsterDex to use Functional components instead of Class components'
     },
     {
-      link: 'monsterdex.com',
+      link: 'https://scatella.github.io/mosterdex/',
       image: monsterdex,
       project: 'MonsterDex',
       description: 'Pulling user data from jsonplaceholder and assets from robohash.org created a rolodex using React'
@@ -191,7 +191,7 @@ const App = () => {
           <Routes>
             <Route path='/' element={<Navigation />}>
               <Route index element={<Home />} />
-              <Route path='portfolio' element={<Portfolio />} />
+              <Route path='projects' element={<Projects />} />
               <Route path='resume' element={<Resume />} />
             </Route>
           </Routes>

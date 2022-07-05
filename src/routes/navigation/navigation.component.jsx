@@ -16,7 +16,7 @@ const Navigation = () => {
           <SCLogo className='logo' />
         </Link>
         <div className='nav-links-container'>
-          <Link className='nav-link' to='/portfolio'>Portfolio</Link>
+          <Link className='nav-link' to='/projects'>Portfolio</Link>
           <Link className='nav-link' to='/resume'>Resume</Link>
         </div>
       </div>

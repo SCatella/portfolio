@@ -5,18 +5,21 @@
     text-transform: uppercase;
     letter-spacing: 5px;
   }
-}
 
-.course {
-  margin: 0px 1px 0px;
+  .education{
 
-  h5 {
-    margin: 10px 0px 5px;
-  }
-
-  p {
-    font-size: 12px;
-    padding-left: 10px;
-    margin: 2px 0px 12px;
+    .course {
+      margin: 0px 1px 0px;
+    
+      h5 {
+        margin: 10px 0px 5px;
+      }
+    
+      p {
+        font-size: 12px;
+        padding-left: 10px;
+        margin: 2px 0px 12px;
+      }
+    }
   }
 }
