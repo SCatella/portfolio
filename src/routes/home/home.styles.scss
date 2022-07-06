@@ -56,6 +56,7 @@
 
     .action {
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
       margin-left: 2vw;
       width: auto;
@@ -79,9 +80,16 @@
 
       .projects-panel {
         display: flex;
-        // justify-content: flex-end;
         transform: scale(0.75);
-        align-items: flex-end;
+      }
+    }
+  }
+
+  @media screen and (max-width: 758px) {
+    .page {
+
+      .action {
+        justify-content: center;
       }
     }
   }
