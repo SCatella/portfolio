@@ -3,15 +3,15 @@
 .home{
   background-color: $white;
   margin-top: 70px;
-  height: 83.5vh;
-  max-height: 600px;
 
   .page {
+    height: clamp(650px, 30vw, 800px);
     background: 
       url('../../assets/wave.svg')
       no-repeat
       center bottom
     ;
+    background-size: cover;
 
     .profile{
       display: flex;
