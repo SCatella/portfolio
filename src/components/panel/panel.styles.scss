@@ -2,12 +2,8 @@
 
 .panel {
     display: flex;
-    position: relative;
-    overflow: hidden;
-    height: 30vh;
-    max-height: 250px;
-    width: 15vw;
-    max-width: 250px;
+    height: clamp(55px, 13vw, 200px);
+    width: clamp(55px, 13vw, 200px);
     margin: 10px 5px;
     transform: skew(-20deg);
     background-image: $gradient-top-left;

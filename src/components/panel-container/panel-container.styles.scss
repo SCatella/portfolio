@@ -3,21 +3,26 @@
 .panel-container {
   display: flex;
   flex-direction: column;
-  height: fit-content;
-  width: fit-content;
-
   
   .panels {
     display: flex;
-    width: fit-content;
   }
-
+  
   .panel-container-banner {
-    width: 66vw;
-    max-width: 1080px;
-    position: relative;
-    top: -65px;
-    left: -12px;
+    transform: translate(-15px, -45px);
+  }
+  
+  @media screen and (max-width: 868px) {
+    width: 100%;    
+    
+    .panels {
+      justify-content: space-around;
+    }
+
+
+    .panel-container-banner {
+      transform: translate(0px, 10px);
+    }
   }
 }
 
