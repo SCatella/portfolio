@@ -1,6 +1,7 @@
 @import '../../utilities/color-palete.scss';
 
 .home{
+  min-width: 280px;
   background-color: $white;
   margin-top: 70px;
 
@@ -22,14 +23,13 @@
       img {
         object-fit: contain;
         width: 25vw;
-        min-width: 128px;
+        min-width: 115px;
         max-width: 200px;      }
 
       .profile-info {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 40vh;
         max-height: 278px;
         width: 100%;
         margin-left: 2vw;
@@ -43,7 +43,7 @@
         p {
           color: $purple;
           font-size: clamp(12px, 2vw, 25px);
-          margin: 0px;
+          margin: 10px;
         }
 
         .profile-introduction {
@@ -58,8 +58,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      margin-left: 2vw;
-      width: auto;
+      margin: 0px 2vw;
 
       .contact-panel {
         display: flex;
@@ -80,16 +79,33 @@
 
       .projects-panel {
         display: flex;
-        transform: scale(0.75);
+        margin: 0px 0px;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 868px) {
+    .page {
+      height: fit-content;
+      padding-bottom: 25px;
+
+      .action {
+        justify-content: center;
+        
+        .projects-panel {
+          margin-top: 15px;
+          width: 100%;
+        }
       }
     }
   }
 
-  @media screen and (max-width: 758px) {
+  @media screen and (max-width: 300px) {
     .page {
-
-      .action {
-        justify-content: center;
+      .profile {
+        img {
+          display: none;
+        }
       }
     }
   }
