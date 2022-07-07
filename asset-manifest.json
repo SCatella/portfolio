@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.528c5d26.css",
+    "main.css": "/portfolio/static/css/main.e2f470cf.css",
     "main.js": "/portfolio/static/js/main.c4e7300f.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Samuel Catella Resume.pdf": "/portfolio/static/media/Samuel Catella Resume.532eb5569f492cfa1d5f.pdf",
@@ -14,12 +14,12 @@
     "index.html": "/portfolio/index.html",
     "static/media/wave.svg": "/portfolio/static/media/wave.7b16e658cc6c0355b395.svg",
     "static/media/mail.svg": "/portfolio/static/media/mail.aed41df235dbf88c7f96b2b704b077d0.svg",
-    "main.528c5d26.css.map": "/portfolio/static/css/main.528c5d26.css.map",
+    "main.e2f470cf.css.map": "/portfolio/static/css/main.e2f470cf.css.map",
     "main.c4e7300f.js.map": "/portfolio/static/js/main.c4e7300f.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.528c5d26.css",
+    "static/css/main.e2f470cf.css",
     "static/js/main.c4e7300f.js"
   ]
 }
