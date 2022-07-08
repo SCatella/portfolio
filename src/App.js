@@ -12,11 +12,11 @@ import Resume from './routes/resume/resume.component';
 import profilePicture from './assets/profile_pic.png';
 import mail from './assets/mail.svg';
 import github from './assets/github.svg';
+import linkedin from './assets/linkedin.svg';
 import portfolio from './assets/portfolio.png';
 import recognibox from './assets/recognibox.png';
 import dexmon from './assets/dexmon.png';
 import monsterdex from './assets/monsterdex.png';
-import logo from './assets/logo.svg';
 
 // Style Sheets Imports
 import './App.scss';
@@ -32,8 +32,8 @@ const user = {
   statement: 'Motivated to change my life through learning more about the wonders of software development',
   contact: [
     {
-      image: logo,
-      info: 'scatella.github.io/portfolio/'
+      image: linkedin,
+      info: 'linkedin.com/in/scatella/'
     },
     {
       image: mail,
