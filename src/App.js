@@ -9,7 +9,7 @@ import Projects from './routes/projects/projects.component';
 import Resume from './routes/resume/resume.component';
 
 //Asset Imports
-import profilePicture from './assets/profile-oval.png';
+import profilePicture from './assets/profile_pic.png';
 import mail from './assets/mail.svg';
 import github from './assets/github.svg';
 import portfolio from './assets/portfolio.png';

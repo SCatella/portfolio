@@ -21,10 +21,11 @@
       padding: 25px 25px 0px;
       
       img {
-        object-fit: contain;
-        width: 25vw;
-        min-width: 115px;
-        max-width: 200px;      }
+        object-fit: cover;
+        width: clamp(115px, 25vw, 200px);
+        margin: 10px;
+        border-radius: 20px;
+      }
 
       .profile-info {
         display: flex;
@@ -38,6 +39,12 @@
           color: $purple;
           font-size: clamp(30px, 6vw, 75px);
           margin: 0px;
+        }
+
+        h3 {
+          color: $blue;
+          font-size: clamp(12px, 2vw, 25px);
+          margin: 0px 10px;
         }
 
         p {

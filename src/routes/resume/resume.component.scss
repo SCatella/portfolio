@@ -45,8 +45,10 @@
       .profile-picture {
         display: flex;
         margin: auto;
+        margin-bottom: 25px;
         object-fit: cover;
         width: 150px;
+        border-radius: 20px;
       }
     }
     

@@ -7,7 +7,6 @@ import PanelContainer from '../../components/panel-container/panel-container.com
 import Contact from '../resume/components/contact/contact.component';
 
 // Assets Imports
-import profilePicture from '../../assets/profile-oval.png';
 
 // Styles Imports
 import './home.styles.scss';
@@ -21,11 +20,11 @@ const Home = () => {
     <div className='home'>
       <div className='page'>
         <div className='profile'>
-          <img src={profilePicture} alt='' />
+          <img src={user.profileImage} alt='' />
           <div className='profile-info'>
             <div>
               <h1>Samuel Catella</h1>
-              <p>your next developer</p>
+              <h3>your next developer</h3>
             </div>
             <div className='profile-introduction'>
               <p>{user.statement}</p>
