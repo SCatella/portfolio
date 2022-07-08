@@ -3,6 +3,7 @@
 .navigation-bar {
   height: 70px;
   width: 100%;
+  min-width: 250px;
   display: flex;
   justify-content: space-between;
   text-transform: uppercase;
@@ -48,10 +49,6 @@
       border-radius: 8px;
       align-content: center;
       font-size: 12px;
-
-      p {
-        display: none;
-      }
       
       cursor: pointer;
 
@@ -63,4 +60,7 @@
     }
   }
   
+  @media screen and (max-width: 360px) {
+   
+  }
 }

@@ -5,6 +5,7 @@
   background-color: $white;
 
   .projects-title {
+    overflow: hidden;
 
     h2 {
       display: flex;
@@ -19,24 +20,36 @@
         flex-direction: row;
         margin: 15px auto;
         width: 50vw;
-        justify-content: center;
         border: 1px solid $purple;
         border-radius: 10px;
         background-color: $light-blue;
         transform: skew(-20deg);
         
         .project-image {
-          transform: scale(0.7) skew(20deg);
+          transform: skew(20deg);
         }
         
         .project-info {
           margin: auto 0px;
           padding: 10px;
-          width: 400px;
           transform: skew(20deg);
+        }
+
+        @media screen and (max-width: 700px) {
+          display: block;
+          width: 75%;
+          transform: skew(-10deg);
+
+          .panel {
+            height: clamp(100px, 13vw, 200px);
+            width: clamp(100px, 13vw, 200px);
+          }
+                    
+          .project-info {
+            transform: skew(10deg);
+          }
         }
       }
     }
-
   }
 }
