@@ -29,7 +29,10 @@
       }
     }
   }
-  
+
+  .resumeImage {
+    display: none;
+  }
   
   .page-container {
     display: flex;
@@ -66,6 +69,17 @@
         display: none;
       }
     }    
+  }
+
+  @media screen and (max-width: 880px) {
+    .resumeImage {
+      display: block;
+      width: 90vw;
+    }
+
+    .page-container {
+      display: none;
+    }
   }
 
 }
