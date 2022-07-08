@@ -9,6 +9,7 @@ import Education from './components/education/education.component';
 import Projects from './components/projects/projects.component';
 import Employment from './components/employment/employment.component';
 import resume from '../../assets/Samuel Catella Resume.pdf'
+import resumeImage from '../../assets/Samuel Catella Resume.png';
 
 import './resume.component.scss';
 
@@ -22,6 +23,7 @@ const Resume = () => {
       <div className='button-container'>
         <a className='button' download='Samuel Catella Resume.pdf' href={resume}>Download</a>
       </div>
+      <img className='resumeImage' src={resumeImage} alt='' />
       <div className='page-container' id='resume'>
         <div className='left-column'>
           <img src={user.profileImage} alt='' className='profile-picture'></img>
