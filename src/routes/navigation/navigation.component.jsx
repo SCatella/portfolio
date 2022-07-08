@@ -16,8 +16,18 @@ const Navigation = () => {
           <SCLogo className='logo' />
         </Link>
         <div className='nav-links-container'>
-          <Link className='nav-link' to='/projects'>Projects</Link>
-          <Link className='nav-link' to='/resume'>Resume</Link>
+          <Link className='nav-link' to='/projects'>
+            Projects
+            <p>
+              P
+            </p>
+          </Link>
+          <Link className='nav-link' to='/resume'>
+            Resume
+            <p>
+              R
+            </p>
+          </Link>
         </div>
       </div>
       <Outlet />

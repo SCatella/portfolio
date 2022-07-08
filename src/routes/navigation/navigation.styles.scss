@@ -21,7 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25px;
+    padding: 15px;
 
     .logo {
       width: clamp(42px, 15vw, 50px);
@@ -35,9 +35,8 @@
   }
   
   .nav-links-container {
-    width: 50%;
     height: 100%;
-    margin-right: 20px;
+    margin-right: 10px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -47,6 +46,12 @@
       padding: 10px 15px;
       border: 1px solid $white;
       border-radius: 8px;
+      align-content: center;
+      font-size: 12px;
+
+      p {
+        display: none;
+      }
       
       cursor: pointer;
 
