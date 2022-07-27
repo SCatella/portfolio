@@ -14,7 +14,7 @@ const Contact = ({ contact }) => {
         contact.map((contact) => {
           return (
             <a href={href(contact.info)} target='_blank' rel='noreferrer' key={contact.image}>
-              <img src={contact.image} alt='' />
+              <img src={contact.image} alt='' width='20' height='20' />
               {contact.info}
             </a>
           );
