@@ -1,6 +1,6 @@
 // import React
 import { useContext } from 'react';
-import { UserContext } from '../../App';
+import { UserContext } from '../../index';
 
 // Import Components
 import Projects from '../resume/components/projects/projects.component';

@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { BannerTitleContext, UserContext } from '../../App';
+import { BannerTitleContext, UserContext } from '../../index';
 
 import Banner from '../banner/banner.component';
 import Panel from '../panel/panel.component';

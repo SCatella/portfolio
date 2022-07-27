@@ -1,6 +1,6 @@
 // React Imports
 import { useContext } from 'react';
-import { UserContext } from '../../App';
+import { UserContext } from '../../index';
 
 // Component Imports
 import PanelContainer from '../../components/panel-container/panel-container.component';
