@@ -1,4 +1,4 @@
-// Imp[ort React
+// Import React
 import { useContext } from 'react';
 import { UserContext } from '../../contexts/user.context';
 
