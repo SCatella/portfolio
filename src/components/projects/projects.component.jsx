@@ -1,5 +1,5 @@
 // Import Components
-import Panel from '../../../../components/panel/panel.component';
+import Panel from '../panel/panel.component';
 
 // Import Styles
 import './projects.styles.scss'

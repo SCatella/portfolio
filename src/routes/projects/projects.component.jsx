@@ -3,7 +3,7 @@ import { useContext } from 'react';
 import { UserContext } from '../../contexts/user.context';
 
 // Import Components
-import Projects from '../resume/components/projects/projects.component';
+import Projects from '../../components/projects/projects.component';
 
 // Import Styles
 import './projects.styles.scss'

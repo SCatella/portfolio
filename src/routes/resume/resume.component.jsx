@@ -4,16 +4,14 @@ import { UserContext } from '../../contexts/user.context';
 
 // Import Components
 import Contact from '../../components/contact/contact.component';
-import Skills from './components/skills/skills.component';
-import Interests from './components/interests/interests.component';
-import User from './components/user/user.component';
-import Education from './components/education/education.component';
-import Projects from './components/projects/projects.component';
-import Employment from './components/employment/employment.component';
+import Skills from '../../components/skills/skills.component';
+import Interests from '../../components/interests/interests.component';
+import User from '../../components/user/user.component';
+import Education from '../../components/education/education.component';
+import Projects from '../../components/projects/projects.component';
+import Employment from '../../components/employment/employment.component';
 import resume from '../../assets/Samuel Catella Resume.pdf'
 import resumeImage from '../../assets/Samuel Catella Resume.jpg';
-
-// Import Images
 
 // Import Styles
 import './resume.component.scss';
