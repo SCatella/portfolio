@@ -1,9 +1,9 @@
 // Imp[ort React
 import { useContext } from 'react';
-import { UserContext } from '../../index';
+import { UserContext } from '../../contexts/user.context';
 
 // Import Components
-import Contact from './components/contact/contact.component';
+import Contact from '../../components/contact/contact.component';
 import Skills from './components/skills/skills.component';
 import Interests from './components/interests/interests.component';
 import User from './components/user/user.component';

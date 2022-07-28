@@ -1,10 +1,10 @@
 // React Imports
 import { useContext } from 'react';
-import { UserContext } from '../../index';
+import { UserContext } from '../../contexts/user.context';
 
 // Component Imports
 import PanelContainer from '../../components/panel-container/panel-container.component';
-import Contact from '../resume/components/contact/contact.component';
+import Contact from '../../components/contact/contact.component';
 
 // Assets Imports
 
