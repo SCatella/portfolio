@@ -12,6 +12,7 @@ import dexmon from '../assets/dexmon.jpg';
 import monsterdex from '../assets/monsterdex.jpg';
 
 
+// User state
 const user = {
   profileImage: profilePicture,
   firstName: 'samuel',
@@ -171,6 +172,7 @@ const user = {
 // Storage Container
 export const UserContext = createContext();
 
+// Storage Accessor
 export const UserProvider = ({ children }) => {
   const value = user;
   return <UserContext.Provider value={value}>{children}</UserContext.Provider>
