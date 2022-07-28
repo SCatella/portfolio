@@ -1,6 +1,5 @@
 import { useContext } from 'react';
-import { BannerTitleContext } from '../../contexts/banner-title.context';
-import { UserContext } from '../../contexts/user.context';
+import { StateContext } from '../../contexts/state.context';
 
 import Banner from '../banner/banner.component';
 import Panel from '../panel/panel.component';
@@ -8,8 +7,8 @@ import Panel from '../panel/panel.component';
 import './panel-container.styles.scss';
 
 const PanelContainer = () => {
-  const title = useContext(BannerTitleContext);
-  const user = useContext(UserContext);
+  const title = useContext(StateContext).bannerTitle;
+  const user = useContext(StateContext).user;
   const projects = user.projects.slice(0, 4);
 
   return (

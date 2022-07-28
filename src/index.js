@@ -6,8 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 // Import Components
 import App from './App';
-import { UserProvider } from './contexts/user.context';
-import { BannerTitleProvider } from './contexts/banner-title.context';
+import { StateProvider } from './contexts/state.context';
 
 // Import Styles
 import './index.scss';
@@ -17,11 +16,9 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <UserProvider>
-        <BannerTitleProvider>
+      <StateProvider>
           <App />
-        </BannerTitleProvider>
-      </UserProvider>
+      </StateProvider>
     </BrowserRouter>
   </React.StrictMode>
 );

@@ -1,6 +1,6 @@
 // import React
 import { useContext } from 'react';
-import { UserContext } from '../../contexts/user.context';
+import { StateContext } from '../../contexts/state.context';
 
 // Import Components
 import Projects from '../../components/projects/projects.component';
@@ -10,7 +10,7 @@ import './projects.styles.scss'
 
 const Portfolio = () => {
 
-  const user = useContext(UserContext);
+  const user = useContext(StateContext).user;
 
   return (
     <div className='portfolio'>

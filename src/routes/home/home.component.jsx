@@ -1,6 +1,6 @@
 // React Imports
 import { useContext } from 'react';
-import { UserContext } from '../../contexts/user.context';
+import { StateContext } from '../../contexts/state.context';
 
 // Component Imports
 import PanelContainer from '../../components/panel-container/panel-container.component';
@@ -14,7 +14,8 @@ import './home.styles.scss';
 
 const Home = () => {
 
-  const user = useContext(UserContext);
+  const user = useContext(StateContext).user;
+
 
   return (
     <div className='home'>

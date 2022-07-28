@@ -1,6 +1,6 @@
 // Import React
 import { useContext } from 'react';
-import { UserContext } from '../../contexts/user.context';
+import { StateContext } from '../../contexts/state.context';
 
 // Import Components
 import Contact from '../../components/contact/contact.component';
@@ -19,7 +19,7 @@ import './resume.component.scss';
 
 const Resume = () => {
 
-  const user = useContext(UserContext);
+  const user = useContext(StateContext).user;
 
   return (
     <div className='resume'>
